@@ -5,7 +5,7 @@ public partial class FormUtama : Form
     public FormUtama()
     {
         InitializeComponent();
-
+        this.WindowState = FormWindowState.Maximized;
         // Saat aplikasi jalan, langsung buka Form 1 (Login) ke dalam panel.
         // Kita mengirimkan 'this' (FormUtama) agar Form 1 mengenali siapa induknya.
         BukaFormDiPanel(new View.Form1(this));

@@ -42,10 +42,10 @@ namespace MVC.View
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.Location = new Point(286, 37);
+            pictureBox1.Location = new Point(323, 34);
             pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(338, 348);
+            pictureBox1.Size = new Size(359, 342);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -54,7 +54,7 @@ namespace MVC.View
             TbUsername.BackColor = SystemColors.HighlightText;
             TbUsername.BorderStyle = BorderStyle.None;
             TbUsername.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            TbUsername.Location = new Point(357, 226);
+            TbUsername.Location = new Point(400, 230);
             TbUsername.Margin = new Padding(2);
             TbUsername.Name = "TbUsername";
             TbUsername.PlaceholderText = "Username";
@@ -66,7 +66,7 @@ namespace MVC.View
             TbPassword.BackColor = SystemColors.HighlightText;
             TbPassword.BorderStyle = BorderStyle.None;
             TbPassword.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            TbPassword.Location = new Point(357, 284);
+            TbPassword.Location = new Point(400, 284);
             TbPassword.Margin = new Padding(2);
             TbPassword.Name = "TbPassword";
             TbPassword.PasswordChar = '*';
@@ -80,7 +80,7 @@ namespace MVC.View
             BtnLogin.FlatStyle = FlatStyle.Flat;
             BtnLogin.Font = new Font("Showcard Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             BtnLogin.ForeColor = Color.Coral;
-            BtnLogin.Location = new Point(518, 346);
+            BtnLogin.Location = new Point(543, 332);
             BtnLogin.Margin = new Padding(2);
             BtnLogin.Name = "BtnLogin";
             BtnLogin.Size = new Size(90, 27);

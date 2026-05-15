@@ -1,11 +1,11 @@
-﻿using MVC.dbconnect;
-using MVC.Models;
+﻿using MVC.Models;
+
 
 namespace MVC.View
 {
     public partial class Form2 : Form
     {
-        private DatabaseHelper db = new DatabaseHelper();
+        private m_userContext db = new m_userContext();
 
 
         public Form2(FormUtama induk)

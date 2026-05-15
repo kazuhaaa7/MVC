@@ -1,11 +1,10 @@
-﻿using MVC.dbconnect;
-using MVC.Models;
+﻿using MVC.Models;
 
 namespace MVC.View
 {
     public partial class Form3 : Form
     {
-        private DatabaseHelper db = new DatabaseHelper();
+        private m_userContext db = new m_userContext();
         private m_User _user; // null jika mode tambah
 
 
